@@ -1,0 +1,40 @@
+.skills-section {
+    background-image: url("../images/softskill-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: var(--border-radius);
+    padding: 1.25rem;
+    height: 380px;
+    border: 1px solid var(--border-color);
+  }
+  
+  .skills-intro {
+    color: var(--text-color);
+    font-family: var(--text-font-family);
+    font-size: var(--text-font-size);
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+  }
+  
+  .skills-list {
+    padding-left: 1.25rem;
+    column-count: 2;     
+    column-gap: 2rem;  
+}
+
+
+  .skills-list li {
+    margin-bottom: 0.75rem;
+    position: relative;
+  }
+  
+  .skills-list li::before {
+    content: "-";
+    color: var(--primary-color);
+    position: absolute;
+    left: -1.25rem;
+    
+    font-size: 1.2rem;
+  }

@@ -1,1 +1,29 @@
 
+main {
+    flex: 1;
+  }
+  
+  .skills-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 0 2rem;
+    max-width: 1400px;
+  }
+  
+  .background-container {
+    background-color: rgba(30, 30, 30, 0.5);
+    padding: 4rem 2rem;
+    margin-top: 4rem;
+  }
+  
+  @media (max-width: 768px) {
+    .skills-container {
+      grid-template-columns: 1fr;
+      padding: 0 1rem;
+    }
+    
+    .background-container {
+      padding: 3rem 1rem;
+    }
+  }

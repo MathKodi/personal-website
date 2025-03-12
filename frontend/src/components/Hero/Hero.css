@@ -25,8 +25,8 @@
   }
   
   .hero-description {
-    font-family: "Work Sans", sans-serif;
-    font-size: 1.125rem;
+    font-family: var(--text-font-family);
+    font-size: var(--text-font-size);
     color: var(--text-color);
     margin-bottom: 2rem;
     line-height: 150%;
