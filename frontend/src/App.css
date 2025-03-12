@@ -5,9 +5,9 @@ main {
   
   .skills-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    padding: 0 2rem;
+    grid-template-columns: 0.51fr 0.35fr;;
+    padding:0;
+    margin-left: 365px;
     max-width: 1400px;
   }
   
