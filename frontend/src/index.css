@@ -1,5 +1,5 @@
 :root {
-  --primary-color: linear-gradient(to right, #7E5CAD, #FAFAFA); /* Purple color */
+  --primary-color: #F7FFD1; /* Purple color */
   --primary-dark: #7C3AED;
   --secondary-color: #1E1E1E; /* Dark background */
   --text-color: #EBEBEB;
@@ -53,6 +53,32 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.badge {
+  background-color: var(--background);
+  color: var(--text-color);
+  padding: 0.35rem 0.75rem;
+  border: 1px solid var(--text-color);
+  border-radius: 9999px;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-right: var(--spacing-xs);
+  margin-bottom: var(--spacing-xs);
+  display: inline-block;
+}
+
+.section-title {
+  font-size: 1.75rem;
+  margin-bottom: var(--spacing-sm);
+  color: var(--text-color);
+}
+
+.divider {
+  height: 2px;
+  background-color: var(--border-color);
+  margin-bottom: var(--spacing-lg);
+}
+
 /* Button styles */
 .resume-button, .cv-button {
   background-color: var(--primary-color);
