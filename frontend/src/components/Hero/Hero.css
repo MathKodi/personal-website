@@ -13,6 +13,7 @@
   
   .hero-name {
     font-size: 4rem;
+    font-weight: 500;
     color: var(--primary-color);
     margin-bottom: 1.5rem;
     line-height: 1.2;
