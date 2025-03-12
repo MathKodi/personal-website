@@ -45,6 +45,7 @@
     transition: var(--transition);
     margin-left: 0px;
     margin-right: 32px;
+    margin-bottom: 5px;
     font-size: 1rem;
     font-weight: 700;
     padding: 0.5rem 1.25rem;
@@ -52,7 +53,7 @@
 
   .social-links {
     display: flex;
-    gap: 1rem;
+    gap: 32px;
     margin-left: 0px;
     margin-right: 32px;
   }
