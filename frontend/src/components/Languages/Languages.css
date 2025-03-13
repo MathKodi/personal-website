@@ -4,6 +4,7 @@
     padding: 1.25rem;
     height: 250px;
     border: 1px solid var(--border-color);
+    width:425px;
   }
   
   .languages-grid {

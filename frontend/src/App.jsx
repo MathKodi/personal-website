@@ -6,6 +6,7 @@ import SoftSkills from './components/Skills/SoftSkills'
 import Languages from './components/Languages/Languages'
 import HardSkills from './components/Skills/HardSkills'
 import Projects from './components/Projects/Projects'
+import Experience from './components/Experience/Experience'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -20,6 +21,9 @@ function App() {
         </div>
         <HardSkills />
         <Projects />
+        <div className='background-container'>
+          <Experience />
+        </div>
       </main>
     </div>
   )
