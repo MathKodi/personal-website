@@ -31,13 +31,59 @@
   
   
   @media (max-width: 768px) {
+    .education-section {
+        padding: 0 1rem;
+        width: 300px;
+    }
+
     .education-card {
-      flex-direction: column;
-      gap: 0.5rem;
+        flex-direction: column;
+        gap: 0.5rem;
     }
     
     .education-period {
-      flex: none;
-      margin-bottom: 0.5rem;
+        flex: none;
+        margin-bottom: 0.5rem;
+        font-size: 1.2rem;
     }
-  }
+
+    .education-degree {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .education-section {
+        padding: 0 0.75rem;
+    }
+
+    .education-card {
+        margin-top: 1rem;
+    }
+
+    .education-period {
+        font-size: 1.1rem;
+    }
+
+    .education-degree {
+        font-size: 0.9rem;
+    }
+
+    .education-details {
+        padding-top: 2px;
+    }
+}
+
+@media (max-width: 320px) {
+    .education-section {
+        padding: 0 0.5rem;
+    }
+
+    .education-period {
+        font-size: 1rem;
+    }
+
+    .education-degree {
+        font-size: 0.85rem;
+    }
+}

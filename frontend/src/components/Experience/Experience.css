@@ -76,7 +76,82 @@
   }
   
   @media (max-width: 768px) {
-    .timeline-item {
-      padding-left: 1.5rem;
+    .experience-section {
+        padding: 0 1rem;
+        width: 300px;
     }
-  }
+
+    .timeline-item {
+        padding-left: 1.5rem;
+    }
+
+    .timeline-date {
+        font-size: 1.2rem;
+    }
+
+    .timeline-role {
+        font-size: 0.95rem;
+    }
+
+    .timeline-responsibilities li {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .experience-section {
+        padding: 0 0.75rem;
+    }
+
+    .timeline-item {
+        padding-left: 1.25rem;
+        margin-bottom: 2rem;
+    }
+
+    .timeline-date {
+        font-size: 1.1rem;
+    }
+
+    .timeline-role {
+        font-size: 0.9rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .timeline-responsibilities li {
+        font-size: 0.9rem;
+        margin-bottom: 0.4rem;
+    }
+
+    .timeline-item::before {
+        width: 10px;
+        height: 10px;
+        left: -4px;
+    }
+
+    .timeline::before {
+        width: 1px;
+    }
+}
+
+@media (max-width: 320px) {
+    .experience-section {
+        padding: 0 0.5rem;
+    }
+
+    .timeline-item {
+        padding-left: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .timeline-date {
+        font-size: 1rem;
+    }
+
+    .timeline-role {
+        font-size: 0.85rem;
+    }
+
+    .timeline-responsibilities li {
+        font-size: 0.85rem;
+    }
+}
