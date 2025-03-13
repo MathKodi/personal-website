@@ -4,6 +4,7 @@ import Header from './components/Header/Header'
 import Hero from './components/Hero/Hero'
 import SoftSkills from './components/Skills/SoftSkills'
 import Languages from './components/Languages/Languages'
+import HardSkills from './components/Skills/HardSkills'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -16,6 +17,7 @@ function App() {
           <SoftSkills />
           <Languages />
         </div>
+        <HardSkills />
       </main>
     </div>
   )
