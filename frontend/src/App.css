@@ -10,9 +10,13 @@ main {
   }
   
   .background-container {
-    background-color: rgba(30, 30, 30, 0.5);
-    padding: 4rem 2rem;
+    max-width: 1400px;
     margin-top: 4rem;
+    display: flex; 
+    justify-content: center; 
+    gap: 4rem;
+    flex-wrap: wrap; 
+    align-items: flex-start;
   }
   
   @media (max-width: 768px) {

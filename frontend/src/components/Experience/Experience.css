@@ -1,6 +1,7 @@
 .experience-section {
-    max-width: 800px;
-    margin: 0 auto;
+    max-width: 600px;
+    margin: 0;
+    flex-shrink: 0;
   }
   
   .timeline {

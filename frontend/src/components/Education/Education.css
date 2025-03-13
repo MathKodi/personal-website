@@ -1,0 +1,43 @@
+.education-section {
+    max-width: 500px;
+    margin: 0;
+    flex-shrink: 0; 
+  }
+  
+  .education-card {
+    margin-top: 1.5rem;
+  }
+  
+  .education-period {
+    font-family: var(--h3-font-family);
+    font-size: 1.375rem;
+    font-weight: 400;
+    color: var(--primary-color);
+    flex: 0 0 200px;
+    margin-bottom: 1rem;
+  }
+  
+  .education-details {
+    padding-top: 4px;
+    flex: 1;
+  }
+  
+  .education-degree {
+    font-family: var(--text-font-family);
+    font-size: var(--text-font-size);
+    font-weight: 400;
+    color: var(--text-color);
+  }
+  
+  
+  @media (max-width: 768px) {
+    .education-card {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    
+    .education-period {
+      flex: none;
+      margin-bottom: 0.5rem;
+    }
+  }
