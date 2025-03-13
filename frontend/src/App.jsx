@@ -5,6 +5,7 @@ import Hero from './components/Hero/Hero'
 import SoftSkills from './components/Skills/SoftSkills'
 import Languages from './components/Languages/Languages'
 import HardSkills from './components/Skills/HardSkills'
+import Projects from './components/Projects/Projects'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -18,6 +19,7 @@ function App() {
           <Languages />
         </div>
         <HardSkills />
+        <Projects />
       </main>
     </div>
   )

@@ -11,8 +11,7 @@ const Header = () => {
 
             <div className='hero-badges'>
                 <span className='badge'>Estudante</span>
-                <span className='badge'>UI/UX Designer</span>
-                <span className='badge'>café = vida</span>
+                <span className='badge'>Desenvolvedor Web</span>
             </div>
 
             <p className='hero-description'>
@@ -26,10 +25,10 @@ const Header = () => {
                     Baixar CV
                 </a>
                 <div className="social-links">
-                    <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/matheus-kodi-y-b341a9234/" target="_blank" rel="noopener noreferrer">
                         <FaLinkedin size={48} />
                     </a>
-                    <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/MathKodi" target="_blank" rel="noopener noreferrer">
                         <FaGithub size={48} />
                     </a>
                 </div>

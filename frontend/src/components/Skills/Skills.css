@@ -77,8 +77,10 @@
   }
   
   .skill-name {
-    font-size: 0.95rem;
-    color: var(--text-secondary);
+    font-family: var(--text-font-family);
+    font-size: var(--text-font-size);
+    font-weight: 400;
+    color: var(--text-color);
   }
   
   .tech-icon {
