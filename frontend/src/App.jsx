@@ -8,6 +8,7 @@ import HardSkills from './components/Skills/HardSkills'
 import Projects from './components/Projects/Projects'
 import Experience from './components/Experience/Experience'
 import Education from './components/Education/Education'
+import Footer from './components/Footer/Footer'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -27,6 +28,7 @@ function App() {
           <Education />
         </div>
       </main>
+      <Footer />
     </div>
   )
 }

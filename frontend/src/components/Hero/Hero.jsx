@@ -21,7 +21,7 @@ const Header = () => {
             </p>
 
             <div className='hero-links'>
-                <a href='link pra algum lugar' className='cv-button' target="_blank" rel="noopener noreferrer">
+                <a href='https://drive.google.com/file/d/1p0GZFWyKbV1d7yPtAn0PwCOS_PWKaTDE/view?usp=sharing' className='cv-button' target="_blank" rel="noopener noreferrer">
                     Baixar CV
                 </a>
                 <div className="social-links">

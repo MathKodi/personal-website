@@ -10,7 +10,7 @@ const Header = () => {
           <li><a href="#about">Sobre mim</a></li>
           <li><a href="#projects">Projetos</a></li>
           <li>
-            <a href="/resume.pdf" className="resume-button" target="_blank" rel="noopener noreferrer">
+            <a href="https://drive.google.com/file/d/1p0GZFWyKbV1d7yPtAn0PwCOS_PWKaTDE/view?usp=sharing" className="resume-button" target="_blank" rel="noopener noreferrer">
               Baixar CV
             </a>
           </li>
